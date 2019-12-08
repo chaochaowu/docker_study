@@ -1,24 +1,8 @@
 # README
+- This is practicing repository which is deploying Rails by Docker.
+- Step by step: [用 Docker 部署 Rails，原來是這樣！？](https://5xruby.tw/posts/deploying-your-docker-rails-app/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Description
+- Ruby 2.6.0
+- Rails 5.2.4
+- PostgreSQL 11.3
