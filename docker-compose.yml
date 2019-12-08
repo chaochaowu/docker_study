@@ -20,6 +20,18 @@ services:
       - lesley
     depends_on:
       - db
+    volumes:
+      - /tmp/sockets:/app/tmp/sockets
+  nginx:
+    build: docker/nginx/.
+    ports:
+      - "80:80"
+    networks:
+      - lesley
+    volumes:
+      - /tmp/sockets:/app/tmp/sockets
+    depends_on:
+      - app
 
 networks:
   lesley:
